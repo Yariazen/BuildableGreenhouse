@@ -3,7 +3,7 @@ import json
 from src.customs.LazyPath import LazyPath as Path
 
 def manifest(VERSION: str) -> str:
-    manifest_data = {
+    jsonstr = {
         "Name": "Buildable Greenhouse Updated",
         "Author": "Yariazen",
         "Version": VERSION,
@@ -18,7 +18,7 @@ def manifest(VERSION: str) -> str:
             }
         ]
     }
-    return json.dumps(manifest_data, indent=2)
+    return json.dumps(jsonstr, indent=2)
 
 
 def generate(pack_path: Path, VERSION: str) -> None:
