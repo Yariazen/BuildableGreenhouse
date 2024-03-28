@@ -1,0 +1,17 @@
+{
+  "Name": "Buildable Greenhouse Updated",
+  "Author": "Yariazen",
+  "Version": "2.0.0",
+  "Description": "Makes the Greenhouse buildable after unlocking it.",
+  "UniqueID": "Yariazen.BuildableGreenhouse",
+  "EntryDll": "BuildableGreenhouse.dll",
+  "UpdateKeys": [
+    "Nexus:11831"
+  ],
+  "Dependencies": [
+    {
+      "UniqueID": "PeacefulEnd.SolidFoundations",
+      "IsRequired": true
+    }
+  ]
+}
